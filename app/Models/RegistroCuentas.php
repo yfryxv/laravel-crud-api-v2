@@ -12,7 +12,7 @@ class RegistroCuentas extends Authenticatable implements JWTSubject
     public $timestamps = false;
 
     protected $fillable = [
-        'id_cliente',
+        'id_clienteG',
         'correo',
         'contrasena'
     ];
